@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		973592CC221AA01C009BB5DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 973592CB221AA01C009BB5DD /* AppDelegate.m */; };
+		973592CF221AA01C009BB5DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 973592CE221AA01C009BB5DD /* ViewController.m */; };
+		973592D2221AA01C009BB5DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 973592D0221AA01C009BB5DD /* Main.storyboard */; };
+		973592D4221AA01D009BB5DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 973592D3221AA01D009BB5DD /* Assets.xcassets */; };
+		973592D7221AA01D009BB5DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 973592D5221AA01D009BB5DD /* LaunchScreen.storyboard */; };
+		973592DA221AA01D009BB5DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 973592D9221AA01D009BB5DD /* main.m */; };
+		973592EF221AA046009BB5DD /* YBSCalendarDayItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 973592E1221AA046009BB5DD /* YBSCalendarDayItem.m */; };
+		973592F0221AA046009BB5DD /* YBSCalendarWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 973592E3221AA046009BB5DD /* YBSCalendarWeekView.m */; };
+		973592F1221AA046009BB5DD /* YBSCalendarMonthItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 973592E4221AA046009BB5DD /* YBSCalendarMonthItem.m */; };
+		973592F2221AA046009BB5DD /* NSDate+YBSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 973592EA221AA046009BB5DD /* NSDate+YBSCalendar.m */; };
+		973592F3221AA046009BB5DD /* YBSCalendarCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 973592EC221AA046009BB5DD /* YBSCalendarCollectionCell.m */; };
+		973592F4221AA046009BB5DD /* YBSCalendarHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 973592ED221AA046009BB5DD /* YBSCalendarHeader.m */; };
+		973592F5221AA046009BB5DD /* YBSCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 973592EE221AA046009BB5DD /* YBSCalendarView.m */; };
+		973592F8221AA1BF009BB5DD /* UIView+YBSFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 973592F7221AA1BF009BB5DD /* UIView+YBSFrame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		973592C7221AA01C009BB5DD /* YYBS_日历.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YYBS_日历.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		973592CA221AA01C009BB5DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		973592CB221AA01C009BB5DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		973592CD221AA01C009BB5DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		973592CE221AA01C009BB5DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		973592D1221AA01C009BB5DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		973592D3221AA01D009BB5DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		973592D6221AA01D009BB5DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		973592D8221AA01D009BB5DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		973592D9221AA01D009BB5DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		973592E1221AA046009BB5DD /* YBSCalendarDayItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBSCalendarDayItem.m; sourceTree = "<group>"; };
+		973592E2221AA046009BB5DD /* NSDate+YBSCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YBSCalendar.h"; sourceTree = "<group>"; };
+		973592E3221AA046009BB5DD /* YBSCalendarWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBSCalendarWeekView.m; sourceTree = "<group>"; };
+		973592E4221AA046009BB5DD /* YBSCalendarMonthItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBSCalendarMonthItem.m; sourceTree = "<group>"; };
+		973592E5221AA046009BB5DD /* YBSCalendarHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBSCalendarHeader.h; sourceTree = "<group>"; };
+		973592E6221AA046009BB5DD /* YBSCalendarCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBSCalendarCollectionCell.h; sourceTree = "<group>"; };
+		973592E7221AA046009BB5DD /* YBSCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBSCalendarView.h; sourceTree = "<group>"; };
+		973592E8221AA046009BB5DD /* YBSCalendarMonthItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBSCalendarMonthItem.h; sourceTree = "<group>"; };
+		973592E9221AA046009BB5DD /* YBSCalendarWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBSCalendarWeekView.h; sourceTree = "<group>"; };
+		973592EA221AA046009BB5DD /* NSDate+YBSCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YBSCalendar.m"; sourceTree = "<group>"; };
+		973592EB221AA046009BB5DD /* YBSCalendarDayItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBSCalendarDayItem.h; sourceTree = "<group>"; };
+		973592EC221AA046009BB5DD /* YBSCalendarCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBSCalendarCollectionCell.m; sourceTree = "<group>"; };
+		973592ED221AA046009BB5DD /* YBSCalendarHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBSCalendarHeader.m; sourceTree = "<group>"; };
+		973592EE221AA046009BB5DD /* YBSCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBSCalendarView.m; sourceTree = "<group>"; };
+		973592F6221AA1BF009BB5DD /* UIView+YBSFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YBSFrame.h"; sourceTree = "<group>"; };
+		973592F7221AA1BF009BB5DD /* UIView+YBSFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YBSFrame.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		973592C4221AA01C009BB5DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		973592BE221AA01C009BB5DD = {
+			isa = PBXGroup;
+			children = (
+				973592C9221AA01C009BB5DD /* YYBS_日历 */,
+				973592C8221AA01C009BB5DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		973592C8221AA01C009BB5DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				973592C7221AA01C009BB5DD /* YYBS_日历.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		973592C9221AA01C009BB5DD /* YYBS_日历 */ = {
+			isa = PBXGroup;
+			children = (
+				973592E0221AA046009BB5DD /* YBSCalendarView */,
+				973592CA221AA01C009BB5DD /* AppDelegate.h */,
+				973592CB221AA01C009BB5DD /* AppDelegate.m */,
+				973592CD221AA01C009BB5DD /* ViewController.h */,
+				973592CE221AA01C009BB5DD /* ViewController.m */,
+				973592D0221AA01C009BB5DD /* Main.storyboard */,
+				973592D3221AA01D009BB5DD /* Assets.xcassets */,
+				973592D5221AA01D009BB5DD /* LaunchScreen.storyboard */,
+				973592D8221AA01D009BB5DD /* Info.plist */,
+				973592D9221AA01D009BB5DD /* main.m */,
+			);
+			path = "YYBS_日历";
+			sourceTree = "<group>";
+		};
+		973592E0221AA046009BB5DD /* YBSCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				973592E7221AA046009BB5DD /* YBSCalendarView.h */,
+				973592EE221AA046009BB5DD /* YBSCalendarView.m */,
+				973592E5221AA046009BB5DD /* YBSCalendarHeader.h */,
+				973592ED221AA046009BB5DD /* YBSCalendarHeader.m */,
+				973592E6221AA046009BB5DD /* YBSCalendarCollectionCell.h */,
+				973592EC221AA046009BB5DD /* YBSCalendarCollectionCell.m */,
+				973592EB221AA046009BB5DD /* YBSCalendarDayItem.h */,
+				973592E1221AA046009BB5DD /* YBSCalendarDayItem.m */,
+				973592E9221AA046009BB5DD /* YBSCalendarWeekView.h */,
+				973592E3221AA046009BB5DD /* YBSCalendarWeekView.m */,
+				973592E4221AA046009BB5DD /* YBSCalendarMonthItem.m */,
+				973592E8221AA046009BB5DD /* YBSCalendarMonthItem.h */,
+				973592E2221AA046009BB5DD /* NSDate+YBSCalendar.h */,
+				973592EA221AA046009BB5DD /* NSDate+YBSCalendar.m */,
+				973592F6221AA1BF009BB5DD /* UIView+YBSFrame.h */,
+				973592F7221AA1BF009BB5DD /* UIView+YBSFrame.m */,
+			);
+			path = YBSCalendarView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		973592C6221AA01C009BB5DD /* YYBS_日历 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 973592DD221AA01D009BB5DD /* Build configuration list for PBXNativeTarget "YYBS_日历" */;
+			buildPhases = (
+				973592C3221AA01C009BB5DD /* Sources */,
+				973592C4221AA01C009BB5DD /* Frameworks */,
+				973592C5221AA01C009BB5DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YYBS_日历";
+			productName = "YYBS_日历";
+			productReference = 973592C7221AA01C009BB5DD /* YYBS_日历.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		973592BF221AA01C009BB5DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "严兵胜";
+				TargetAttributes = {
+					973592C6221AA01C009BB5DD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 973592C2221AA01C009BB5DD /* Build configuration list for PBXProject "YYBS_日历" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 973592BE221AA01C009BB5DD;
+			productRefGroup = 973592C8221AA01C009BB5DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				973592C6221AA01C009BB5DD /* YYBS_日历 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		973592C5221AA01C009BB5DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973592D7221AA01D009BB5DD /* LaunchScreen.storyboard in Resources */,
+				973592D4221AA01D009BB5DD /* Assets.xcassets in Resources */,
+				973592D2221AA01C009BB5DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		973592C3221AA01C009BB5DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973592F2221AA046009BB5DD /* NSDate+YBSCalendar.m in Sources */,
+				973592F4221AA046009BB5DD /* YBSCalendarHeader.m in Sources */,
+				973592F1221AA046009BB5DD /* YBSCalendarMonthItem.m in Sources */,
+				973592F3221AA046009BB5DD /* YBSCalendarCollectionCell.m in Sources */,
+				973592EF221AA046009BB5DD /* YBSCalendarDayItem.m in Sources */,
+				973592F5221AA046009BB5DD /* YBSCalendarView.m in Sources */,
+				973592CF221AA01C009BB5DD /* ViewController.m in Sources */,
+				973592DA221AA01D009BB5DD /* main.m in Sources */,
+				973592F0221AA046009BB5DD /* YBSCalendarWeekView.m in Sources */,
+				973592CC221AA01C009BB5DD /* AppDelegate.m in Sources */,
+				973592F8221AA1BF009BB5DD /* UIView+YBSFrame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		973592D0221AA01C009BB5DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				973592D1221AA01C009BB5DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		973592D5221AA01D009BB5DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				973592D6221AA01D009BB5DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		973592DB221AA01D009BB5DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		973592DC221AA01D009BB5DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		973592DE221AA01D009BB5DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJWDFTVLYS;
+				INFOPLIST_FILE = "YYBS_日历/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "text.swift.YYBS---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		973592DF221AA01D009BB5DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJWDFTVLYS;
+				INFOPLIST_FILE = "YYBS_日历/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "text.swift.YYBS---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		973592C2221AA01C009BB5DD /* Build configuration list for PBXProject "YYBS_日历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				973592DB221AA01D009BB5DD /* Debug */,
+				973592DC221AA01D009BB5DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		973592DD221AA01D009BB5DD /* Build configuration list for PBXNativeTarget "YYBS_日历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				973592DE221AA01D009BB5DD /* Debug */,
+				973592DF221AA01D009BB5DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 973592BF221AA01C009BB5DD /* Project object */;
+}
